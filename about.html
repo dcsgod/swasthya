@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Swasthya Health Management System</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #c8e6c9;
+    }
+
+    .container {
+      display: flex;
+      margin-top: 1rem;
+      padding: 1rem;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+      color: #4caf50;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .sidebar ul li a:hover {
+      color: #4caf50;
+    }
+
+    .content {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .content h2 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section h3 {
+      color: #4caf50;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #4caf50;
+      color: white;
+      margin-top: 1rem;
+    }
+
+    .team-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .team-member img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+
+    .team-member .info {
+      color: #333;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Swasthya</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Appointments</a>
+      <a href="#">Patients</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Quick Links</h3>
+      <ul class="nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="yoga.html">Yoga</a></li>
+        <li><a href="meditation.html">Meditation</a></li>
+        <li><a href="yoga-details.html">Health Section</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h2>About Swasthya Health Management System</h2>
+
+      <div class="section">
+        <h3>Overview</h3>
+        <p>Swasthya is an integrated health management system designed to help individuals and healthcare professionals streamline health services. It provides an efficient way to manage appointments, track patient records, generate reports, and enhance overall healthcare experiences. Our goal is to offer easy access to health information and improve the quality of care through technology.</p>
+      </div>
+
+      <div class="section">
+        <h3>Key Features</h3>
+        <ul>
+          <li><strong>Appointment Management:</strong> Book, view, and manage appointments effortlessly.</li>
+          <li><strong>Patient Records:</strong> Store, update, and manage patient data securely.</li>
+          <li><strong>Health Reports:</strong> Generate detailed health reports with insights and recommendations.</li>
+          <li><strong>Yoga and Meditation:</strong> Access yoga and meditation content to improve your well-being.</li>
+          <li><strong>Easy-to-Use Interface:</strong> Simple, intuitive design that makes navigation and use quick and easy.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Our Team</h3>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/60" alt="Team Member">
+          <div class="info">
+            <strong>Dr. X Y</strong><br>
+            Chief Medical Officer, Co-Founder
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/60" alt="Team Member">
+          <div class="info">
+            <strong>XYZ XYZ</strong><br>
+            Software Engineer, Co-Founder
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/60" alt="Team Member">
+          <div class="info">
+            <strong>ABC ABC</strong><br>
+            Lead Developer, Co-Founder
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Our Mission</h3>
+        <p>At Swasthya, our mission is to empower individuals to take control of their health by providing them with a comprehensive and user-friendly platform. We strive to simplify healthcare processes, promote wellness, and make healthcare management more accessible and efficient for everyone.</p>
+      </div>
+
+      <div class="section">
+        <h3>Contact Information</h3>
+        <p>If you have any questions or suggestions, feel free to reach out to us:</p>
+        <ul>
+          <li>Email: support@swasthya.com</li>
+          <li>Phone: +91 (800) 123-4567</li>
+          <li>Address: 123 Health Street, Jaipur, India</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Swasthya. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

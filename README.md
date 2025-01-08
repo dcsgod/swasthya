@@ -1,2 +1,2 @@
-# swasthya
-A daily Yoga Application That will help you in Get your Yoga Done Daily
+# Yes2Yoga
+website Link : https://arpita83.github.io/Yes2Yoga/index.html
